@@ -13,7 +13,7 @@
     color: white;
 }
 
-/* header part */
+/* navigation part */
 .header-background{
     background-image: linear-gradient(to right, rgba(17, 17, 17, 1) 0%, rgba(119, 119, 119, 0) 100%);
     margin: 0px 198px;
@@ -33,14 +33,14 @@
 }
 
 .nav-fitness{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 900;
     color: #E6533C;
 }
 
 .nav-item{
     margin-right: 47px;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 #nav-home{
@@ -53,4 +53,61 @@
 #nav-about{
     padding-right: 20px;
     padding-left: 20px;
+}
+
+/* other parts of header */
+.header-title-image{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title{
+    max-width: 520px;
+    margin-top: 96px;
+}
+
+.header-title-intro{
+    font-size: 78px;
+    font-weight: 900;
+}
+
+#shape{
+    font-family: "Miama", sans-serif;
+    font-size: 9rem;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+.header-title-outro{
+    font-size: 1rem;
+    opacity: .5;
+    margin-top: -40px;
+}
+
+.header-button{
+    margin-top: 28px;
+}
+
+.join-club{
+    padding: 16px 46.5px;
+    border-radius: 42px;
+    background-color: #E6533C;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 14px;
+}
+
+.download-app{
+    padding: 16px 48px;
+    border-radius: 42px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    font-size: 18px;
+        font-weight: 600;
+}
+
+.header-image{
+    margin-top: 32px;
 }

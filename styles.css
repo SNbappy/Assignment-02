@@ -14,80 +14,84 @@
 }
 
 /* navigation part */
-.header-background{
+.header-background {
     margin: 0px 198px;
 }
 
-.nav-bar{
+.nav-bar {
     display: flex;
     justify-content: space-between;
     margin-top: 57px;
 }
 
-.nav-function{
+.nav-function {
     display: flex;
     align-items: center;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 39px;
 }
 
-.nav-fitness{
+.nav-fitness {
     font-size: 2.25rem;
     font-weight: 900;
     color: #E6533C;
 }
 
-.nav-item{
+.nav-item {
     margin-right: 47px;
     font-size: 1.125rem;
 }
 
-#nav-home{
+#nav-home {
     padding: 8px 20px;
     background-color: #E6533C;
     border-radius: 46px;
     font-weight: 600;
 }
 
-#nav-about{
+#nav-about {
     padding-right: 20px;
     padding-left: 20px;
 }
 
+.hamburger-icon {
+    display: none;
+}
+
 /* other parts of header */
-.header-title-image{
+.header-title-image {
     display: flex;
     justify-content: space-between;
 }
 
-.header-title{
+.header-title {
     max-width: 520px;
     margin-top: 96px;
 }
 
-.header-title-intro{
+.header-title-intro {
     font-size: 78px;
     font-weight: 900;
 }
 
-#shape{
+#shape {
     font-family: "Miama", sans-serif;
     font-size: 9rem;
     font-weight: 400;
     line-height: 1rem;
 }
 
-.header-title-outro{
+.header-title-outro {
     font-size: 1rem;
     opacity: .5;
     margin-top: -40px;
 }
 
-.header-button{
+.header-button {
     margin-top: 28px;
 }
 
-.join-club{
+.join-club {
     padding: 16px 46.5px;
     border-radius: 42px;
     background-color: #E6533C;
@@ -95,9 +99,10 @@
     font-size: 18px;
     font-weight: 600;
     margin-right: 14px;
+    border: none;
 }
 
-.download-app{
+.download-app {
     padding: 16px 48px;
     border-radius: 42px;
     color: white;
@@ -107,11 +112,11 @@
     font-weight: 600;
 }
 
-.header-image{
+.header-image {
     margin-top: 32px;
 }
 
-.card1{
+.card1 {
     display: flex;
     align-items: center;
     /* border: 1px solid white; */
@@ -127,7 +132,7 @@
     box-sizing: border-box;
 }
 
-.play-icon{
+.play-icon {
     color: #E6533C;
     background-color: white;
     border-radius: 50%;
@@ -136,25 +141,25 @@
     height: 40px;
 }
 
-.custom-icon{
+.custom-icon {
     font-size: 2.5rem;
     color: #E6533C;
     background-color: white;
     border-radius: 50%;
 }
 
-.icon-title{
+.icon-title {
     margin-left: 12px;
 }
 
-.icon-title-intro{
+.icon-title-intro {
     font-size: 1.5rem;
     font-weight: 900;
     /* line-height: 1.5rem; */
     letter-spacing: .3px;
 }
 
-.icon-title-outro{
+.icon-title-outro {
     font-size: 1rem;
     opacity: 65%;
     line-height: 0rem;
@@ -162,7 +167,7 @@
     padding-bottom: 20px;
 }
 
-.card2{
+.card2 {
     width: 193px;
     height: 98px;
     background-color: rgba(255, 255, 255, 10%);
@@ -173,17 +178,164 @@
     border-radius: 12px;
 }
 
-.card2-title{
+.card2-title {
     font-size: 2.5rem;
     font-weight: 900;
     line-height: 0.01rem;
     margin-left: 24px;
 }
 
-.card2-title-outro{
+.card2-title-outro {
     font-size: .8125rem;
     line-height: .02rem;
     color: rgba(255, 255, 255, 65%);
     margin-left: 24px;
     margin-right: 17px;
+}
+
+/* Change Your Habits section */
+.change {
+    margin: 100px 198px 0px 198px;
+}
+
+.change-title {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    line-height: 0.02rem;
+}
+
+.change-title-outro {
+    font-size: 0.875rem;
+    letter-spacing: 0.3px;
+    opacity: 50%;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+.circle-image {
+    margin-top: 58px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.circle-image-title,
+.circle-image-title-outro {
+    text-align: center;
+}
+
+.circle-image-title{
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 0.5rem;
+}
+
+.circle-image-title-outro{
+    font-size: 0.875rem;
+    letter-spacing: 0.3px;
+    opacity: 50%;
+}
+
+.run{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    margin: 100px 190px 0px 190px;
+}
+
+.run-title{
+    max-width: 443px;
+    padding-left: 54px;
+}
+
+.run-title-intro{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.run-title-outro{
+    font-size: .875rem;
+    letter-spacing: 0.3px;
+    opacity: 50%;
+    margin-top: -25px;
+}
+
+.join-now{
+    padding: 16px 71.5px;
+    border-radius: 42px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #E6533C;
+    color: white;
+    border: none;
+}
+
+.run-image{
+    width: 366px;
+    height: 312px;
+    padding-top: 30px;
+    padding-bottom: 29px;
+    padding-right: 32px;
+    border-radius: 18px;
+}
+
+
+
+
+
+@media (max-width: 576px) {
+
+    /* header Part */
+    .nav-function {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-background {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .header-title-image {
+        display: block;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .header-button {
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+
+    .card1 {
+        margin-top: -320px;
+        margin-left: 11px;
+    }
+
+    .card2 {
+        margin-top: -300px;
+    }
+
+    .join-club {
+        margin: auto;
+    }
+
+    .download-app {
+        margin: auto;
+    }
 }

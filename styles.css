@@ -506,6 +506,49 @@
     /* transform: scale(1.05); */
 }
 
+/* Extra segment */
+.fitness-segment {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+.fitness-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.fitness-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.fitness-text {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.fitness-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #E6533C;
+    border-radius: 42px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* .fitness-button:hover {
+    background-color: #E6533C;
+} */
+
 
 /* footer part */
 footer{

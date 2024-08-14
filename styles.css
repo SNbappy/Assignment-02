@@ -288,7 +288,22 @@
     border-radius: 18px;
 }
 
+.bmi-title{
+    max-width: 671px;
+    margin: 88px auto 0 auto;
+}
 
+.bmi-calculator{
+    font-size: 3rem;
+    line-height: 120%;
+}
+
+.bmi-calculator-outro{
+    font-size: 0.875rem;
+    letter-spacing: 0.3px;
+    opacity: 50%;
+    margin-top: -25px;
+}
 
 
 

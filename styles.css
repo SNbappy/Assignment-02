@@ -27,7 +27,7 @@
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    margin-top: 57px;
+    padding-top: 57px;
 }
 
 .nav-function {

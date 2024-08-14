@@ -14,8 +14,14 @@
 }
 
 /* navigation part */
+.header-color {
+    background: linear-gradient(to bottom, #111111 0%, #777777 100%);
+    /* margin: 0px 198px; */
+}
+
 .header-background {
     margin: 0px 198px;
+    padding-bottom: 76px;
 }
 
 .nav-bar {
@@ -187,10 +193,11 @@
 
 .card2-title-outro {
     font-size: .8125rem;
-    line-height: .02rem;
+    /* line-height: .02rem; */
     color: rgba(255, 255, 255, 65%);
     margin-left: 24px;
     margin-right: 17px;
+    margin-top: -15px;
 }
 
 /* Change Your Habits section */
@@ -699,15 +706,15 @@ hr {
 
 
 
-        .run-image {
-            /* max-width: 366px; */
-            /* max-height: 312px; */
-            /* margin-right: 32px; */
-            width: 90%;
-            margin: 0 auto;
-            border-radius: 18px;
-            box-sizing: border-box;
-        }
+    .run-image {
+        /* max-width: 366px; */
+        /* max-height: 312px; */
+        /* margin-right: 32px; */
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 18px;
+        box-sizing: border-box;
+    }
 
     .bmi-calc {
         display: grid;
@@ -745,8 +752,8 @@ hr {
     hr {
         margin: 0 20px;
     }
-    
-    body{
+
+    body {
         /* margin: 2%; */
     }
 }
